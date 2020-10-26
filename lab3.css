@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: darkcyan;
+}
+.formContainer{
+    margin-top: 20px;
+    margin-left: 200px;
+    background-color: darkgoldenrod;
+    width: 200%;
+    padding: 14px 22px;
+}
+.container{
+      margin-left: 300px;
+      
+      
+}
+input[type=text], select {
+    font-size: 12px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 7px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: whitesmoke;
+  }
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 9px;
+    margin: 4px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.9;
+    
+  }
+  button:hover {
+    opacity:1;
+  }
+  
+  .cancelbtn {
+    padding: 8px 9px;
+    background-color: #f44336;
+  }
+  .cancelbtn, .signupbtn {
+    float: middle;
+    width: 10%;
+  }
